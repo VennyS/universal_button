@@ -11,7 +11,6 @@ class UniversalButton extends StatelessWidget {
   final UniversalButtonState state;
   final VoidCallback onPressed;
 
-  // Измените конструктор для корректного инициализирования всех полей
   const UniversalButton({
     super.key,
     required this.id,
@@ -63,7 +62,7 @@ class UniversalButton extends StatelessWidget {
                           : Colors.white,
                       fontSize: 18,
                       fontWeight: FontWeight.w500,
-                      height: 1.3, // Высота строки
+                      height: 1.3,
                     ),
                   ),
                   Text(
@@ -75,7 +74,7 @@ class UniversalButton extends StatelessWidget {
                       color: state == UniversalButtonState.active
                           ? const Color.fromRGBO(145, 129, 166, 1)
                           : const Color.fromRGBO(214, 181, 255, 1),
-                      height: 1.2, // Высота строки
+                      height: 1.2,
                     ),
                   ),
                 ],
@@ -86,7 +85,7 @@ class UniversalButton extends StatelessWidget {
                   child: Transform.rotate(
                     angle: pi / 12,
                     child: Image.asset(
-                      'assets/pngs/rocket.png', // Путь к вашему изображению
+                      'assets/pngs/rocket.png',
                       width: 66,
                       height: 66,
                     ),
