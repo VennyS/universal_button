@@ -1,1 +1,1 @@
-Widget for flutter. Universal button with picture
+Виджет для Flutter'а. Универсальная кнопка с картинкой
